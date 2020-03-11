@@ -54,3 +54,11 @@ rome_location:
 sf_location:
   type: pandas.CSVDataSet
   filepath: data/01_raw/sf_location.csv
+
+preprocessed_location_sf:
+  type: pandas.CSVDateSet
+  filepath: data/02_intermediate/preprocessed_location_sf.csv
+
+preprocessed_location_rome:
+  type: pandas.CSVDateSet
+  filepath: data/02_intermediate/preprocessed_location_rome.csv
